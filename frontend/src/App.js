@@ -16,6 +16,7 @@ const { SystemProgram } = web3;
 
 const App = () => {
   const[walletAddress, setWalletAddress] = useState(null);
+  const [tickets, setTickets] = useState([]);
   const getProvider = () => {
     const connection = new Connection(network, opts.preflightCommitment);
     const provider = new AnchorProvider(connection, window.solana, opts.preflightCommitment);
@@ -56,6 +57,20 @@ const App = () => {
     }
   };
 
+  const getTickets = async () => {
+    const connection = new Connection(network, opts.preflightCommitment);
+    const provider = getProvider();
+    const program = new Program(idl, programID, provider);
+      Promise.all(
+        (await connection.getProgramAccounts(programID)).map(
+          async (ticket) => ({
+            ...(await program.account.ticket.fetch(ticket.pubkey)),
+            pubkey: ticket.pubkey,
+          })
+        )
+      ).then((tickets) => setTickets(tickets));
+  };
+
   const createTicket = async () => {
     try {
       const provider = getProvider();
@@ -82,6 +97,25 @@ const App = () => {
       console.error("Error creating ticket acount", error);
     }
   };
+
+  const setpay = async (publicKey, price) => {
+    try {
+      const provider = getProvider();
+      const program = new Program(idl, programID, provider);
+
+      await program.rpc.buy(new BN(price * web3.LAMPORTS_PER_SOL),{
+        accounts: {
+          ticket: publicKey,
+          user: provider.wallet.publicKey,
+          systemProgram: SystemProgram.programId,
+        },
+      });
+      console.log("Pay to:", publicKey.toString());
+      getTickets();
+    } catch (error) {
+      console.error("Error pay", error);
+    }
+  };
  
   const renderNotConnectedContainer = () => (
     <button onClick={connectWallet}>Connect to wallet</button>
@@ -90,23 +124,25 @@ const App = () => {
   const renderConnectedContainer = () => (
     <>
       <button onClick={createTicket}>Create a ticket</button>
-      {/* <button onClick={getCollectable}>Get a list of collectables</button> */}
+      <button onClick={getTickets}>Get a list of events</button>
       <br/>
-      {/* {collectables.map(collectable => (
+      {tickets.map(ticket => (
         <>
-          <p>Collectable ID: {collectable.pubkey.toString()}</p>
-          <p>Balance: {(collectable.amountD / web3.LAMPORTS_PER_SOL).toString()}</p>
-          <p>{collectable.name}</p>
-          <p>{collectable.description}</p>
-          <button onClick={() => setbind(collectable.pubkey)}>
-            Click to bind
+          <p>event ID: {ticket.pubkey.toString()}</p>
+          <p>Balance: {(ticket.amountD / web3.LAMPORTS_PER_SOL).toString()} SOL</p>
+          <p>{ticket.img}</p>
+          <p>{ticket.name}</p>
+          <p>{ticket.description}</p>
+          <p>{ticket.price / web3.LAMPORTS_PER_SOL} SOL</p>
+          <button onClick={() => setpay(ticket.pubkey, ticket.price / web3.LAMPORTS_PER_SOL)}>
+            Click to pay
           </button>
-          <button onClick={() => withdraw(collectable.pubkey)}>
+          {/* <button onClick={() => withdraw(ticket.pubkey)}>
             Click to whithdraw
-          </button>
+          </button> */}
           <br/>
         </>
-      ))} */}
+      ))}
     </>
   );
  
