@@ -1,0 +1,10 @@
+/home/rnajera/Escritorio/eztiket/eztiket/target/debug/deps/proc_macro2_diagnostics-b90231b59c94c2bd.rmeta: /home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-diagnostics-0.9.1/src/lib.rs /home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-diagnostics-0.9.1/src/ext.rs /home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-diagnostics-0.9.1/src/diagnostic.rs /home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-diagnostics-0.9.1/src/line.rs
+
+/home/rnajera/Escritorio/eztiket/eztiket/target/debug/deps/libproc_macro2_diagnostics-b90231b59c94c2bd.rlib: /home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-diagnostics-0.9.1/src/lib.rs /home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-diagnostics-0.9.1/src/ext.rs /home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-diagnostics-0.9.1/src/diagnostic.rs /home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-diagnostics-0.9.1/src/line.rs
+
+/home/rnajera/Escritorio/eztiket/eztiket/target/debug/deps/proc_macro2_diagnostics-b90231b59c94c2bd.d: /home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-diagnostics-0.9.1/src/lib.rs /home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-diagnostics-0.9.1/src/ext.rs /home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-diagnostics-0.9.1/src/diagnostic.rs /home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-diagnostics-0.9.1/src/line.rs
+
+/home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-diagnostics-0.9.1/src/lib.rs:
+/home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-diagnostics-0.9.1/src/ext.rs:
+/home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-diagnostics-0.9.1/src/diagnostic.rs:
+/home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-diagnostics-0.9.1/src/line.rs:

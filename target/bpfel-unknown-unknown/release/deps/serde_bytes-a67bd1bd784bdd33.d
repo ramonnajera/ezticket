@@ -1,0 +1,11 @@
+/home/rnajera/Escritorio/eztiket/eztiket/target/bpfel-unknown-unknown/release/deps/serde_bytes-a67bd1bd784bdd33.rmeta: /home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_bytes-0.11.9/src/lib.rs /home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_bytes-0.11.9/src/bytes.rs /home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_bytes-0.11.9/src/de.rs /home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_bytes-0.11.9/src/ser.rs /home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_bytes-0.11.9/src/bytebuf.rs
+
+/home/rnajera/Escritorio/eztiket/eztiket/target/bpfel-unknown-unknown/release/deps/libserde_bytes-a67bd1bd784bdd33.rlib: /home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_bytes-0.11.9/src/lib.rs /home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_bytes-0.11.9/src/bytes.rs /home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_bytes-0.11.9/src/de.rs /home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_bytes-0.11.9/src/ser.rs /home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_bytes-0.11.9/src/bytebuf.rs
+
+/home/rnajera/Escritorio/eztiket/eztiket/target/bpfel-unknown-unknown/release/deps/serde_bytes-a67bd1bd784bdd33.d: /home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_bytes-0.11.9/src/lib.rs /home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_bytes-0.11.9/src/bytes.rs /home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_bytes-0.11.9/src/de.rs /home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_bytes-0.11.9/src/ser.rs /home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_bytes-0.11.9/src/bytebuf.rs
+
+/home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_bytes-0.11.9/src/lib.rs:
+/home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_bytes-0.11.9/src/bytes.rs:
+/home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_bytes-0.11.9/src/de.rs:
+/home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_bytes-0.11.9/src/ser.rs:
+/home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_bytes-0.11.9/src/bytebuf.rs:

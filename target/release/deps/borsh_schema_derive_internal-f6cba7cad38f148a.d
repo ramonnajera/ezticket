@@ -1,0 +1,10 @@
+/home/rnajera/Escritorio/eztiket/eztiket/target/release/deps/borsh_schema_derive_internal-f6cba7cad38f148a.rmeta: /home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-schema-derive-internal-0.9.3/src/lib.rs /home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-schema-derive-internal-0.9.3/src/helpers.rs /home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-schema-derive-internal-0.9.3/src/enum_schema.rs /home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-schema-derive-internal-0.9.3/src/struct_schema.rs
+
+/home/rnajera/Escritorio/eztiket/eztiket/target/release/deps/libborsh_schema_derive_internal-f6cba7cad38f148a.rlib: /home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-schema-derive-internal-0.9.3/src/lib.rs /home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-schema-derive-internal-0.9.3/src/helpers.rs /home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-schema-derive-internal-0.9.3/src/enum_schema.rs /home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-schema-derive-internal-0.9.3/src/struct_schema.rs
+
+/home/rnajera/Escritorio/eztiket/eztiket/target/release/deps/borsh_schema_derive_internal-f6cba7cad38f148a.d: /home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-schema-derive-internal-0.9.3/src/lib.rs /home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-schema-derive-internal-0.9.3/src/helpers.rs /home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-schema-derive-internal-0.9.3/src/enum_schema.rs /home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-schema-derive-internal-0.9.3/src/struct_schema.rs
+
+/home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-schema-derive-internal-0.9.3/src/lib.rs:
+/home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-schema-derive-internal-0.9.3/src/helpers.rs:
+/home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-schema-derive-internal-0.9.3/src/enum_schema.rs:
+/home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-schema-derive-internal-0.9.3/src/struct_schema.rs:

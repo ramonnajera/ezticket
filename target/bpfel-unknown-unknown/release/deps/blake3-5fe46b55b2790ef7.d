@@ -1,0 +1,12 @@
+/home/rnajera/Escritorio/eztiket/eztiket/target/bpfel-unknown-unknown/release/deps/blake3-5fe46b55b2790ef7.rmeta: /home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/blake3-1.3.3/src/lib.rs /home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/blake3-1.3.3/src/guts.rs /home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/blake3-1.3.3/src/platform.rs /home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/blake3-1.3.3/src/portable.rs /home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/blake3-1.3.3/src/traits.rs /home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/blake3-1.3.3/src/join.rs
+
+/home/rnajera/Escritorio/eztiket/eztiket/target/bpfel-unknown-unknown/release/deps/libblake3-5fe46b55b2790ef7.rlib: /home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/blake3-1.3.3/src/lib.rs /home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/blake3-1.3.3/src/guts.rs /home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/blake3-1.3.3/src/platform.rs /home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/blake3-1.3.3/src/portable.rs /home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/blake3-1.3.3/src/traits.rs /home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/blake3-1.3.3/src/join.rs
+
+/home/rnajera/Escritorio/eztiket/eztiket/target/bpfel-unknown-unknown/release/deps/blake3-5fe46b55b2790ef7.d: /home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/blake3-1.3.3/src/lib.rs /home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/blake3-1.3.3/src/guts.rs /home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/blake3-1.3.3/src/platform.rs /home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/blake3-1.3.3/src/portable.rs /home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/blake3-1.3.3/src/traits.rs /home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/blake3-1.3.3/src/join.rs
+
+/home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/blake3-1.3.3/src/lib.rs:
+/home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/blake3-1.3.3/src/guts.rs:
+/home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/blake3-1.3.3/src/platform.rs:
+/home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/blake3-1.3.3/src/portable.rs:
+/home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/blake3-1.3.3/src/traits.rs:
+/home/rnajera/.cargo/registry/src/github.com-1ecc6299db9ec823/blake3-1.3.3/src/join.rs:

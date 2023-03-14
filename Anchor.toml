@@ -1,0 +1,15 @@
+[features]
+seeds = false
+skip-lint = false
+[programs.devnet]
+eztiket = "H83vdbL8UYq4dGzikGe7pKYSsWwVBkq5EfJUBuS8DrhT"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "devnet"
+wallet = "./id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
