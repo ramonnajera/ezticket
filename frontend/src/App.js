@@ -116,6 +116,27 @@ const App = () => {
       console.error("Error pay", error);
     }
   };
+
+  const withdraw = async (publicKey) => {
+    try {
+      const provider = getProvider();
+      const program = new Program(idl, programID, provider);
+      const connection = new Connection(network, opts.preflightCommitment);
+      const balance = await connection.getBalance(publicKey) / web3.LAMPORTS_PER_SOL;
+
+      console.log("Mi balance", parseInt(balance * 10, 10) / 10);
+
+      await program.rpc.withdraw(new BN((parseInt(balance * 10, 10) / 10) * web3.LAMPORTS_PER_SOL),{
+        accounts: {
+          ticket: publicKey,
+          user: provider.wallet.publicKey,
+        },
+      });
+      console.log("Success whithdrawing from:", publicKey.toString());
+    } catch (error) {
+      console.error("Error whithdrawing",error);
+    }
+  };
  
   const renderNotConnectedContainer = () => (
     <button onClick={connectWallet}>Connect to wallet</button>
@@ -137,9 +158,9 @@ const App = () => {
           <button onClick={() => setpay(ticket.pubkey, ticket.price / web3.LAMPORTS_PER_SOL)}>
             Click to pay
           </button>
-          {/* <button onClick={() => withdraw(ticket.pubkey)}>
+          <button onClick={() => withdraw(ticket.pubkey)}>
             Click to whithdraw
-          </button> */}
+          </button>
           <br/>
         </>
       ))}
